@@ -95,7 +95,7 @@ namespace Inventory.ViewModels
                         ProgressStatus = "Creating Database...";
                         await db.Database.EnsureCreatedAsync();
                         ProgressValue = 2;
-                        await CopyDataTables(db);
+                        // await CopyDataTables(db);
                         ProgressValue = 14;
                         Message = "Database created successfully.";
                         Result = Result.Ok("Database created successfully.");

@@ -131,7 +131,6 @@ namespace Inventory.Services
                 DiscountStartDate = source.DiscountStartDate,
                 DiscountEndDate = source.DiscountEndDate,
                 StockUnits = source.StockUnits,
-                SafetyStockLevel = source.SafetyStockLevel,
                 CreatedOn = source.CreatedOn,
                 LastModifiedOn = source.LastModifiedOn,
                 Thumbnail = source.Thumbnail,
@@ -160,7 +159,6 @@ namespace Inventory.Services
             target.DiscountStartDate = source.DiscountStartDate;
             target.DiscountEndDate = source.DiscountEndDate;
             target.StockUnits = source.StockUnits;
-            target.SafetyStockLevel = source.SafetyStockLevel;
             target.CreatedOn = source.CreatedOn;
             target.LastModifiedOn = source.LastModifiedOn;
             target.Picture = source.Picture;

@@ -40,8 +40,6 @@ namespace Inventory.Models
         public DateTimeOffset? DiscountEndDate { get; set; }
 
         public int StockUnits { get; set; }
-        public int SafetyStockLevel { get; set; }
-
         public DateTimeOffset CreatedOn { get; set; }
         public DateTimeOffset LastModifiedOn { get; set; }
 
@@ -79,7 +77,6 @@ namespace Inventory.Models
                 DiscountStartDate = source.DiscountStartDate;
                 DiscountEndDate = source.DiscountEndDate;
                 StockUnits = source.StockUnits;
-                SafetyStockLevel = source.SafetyStockLevel;
                 CreatedOn = source.CreatedOn;
                 LastModifiedOn = source.LastModifiedOn;
                 Picture = source.Picture;

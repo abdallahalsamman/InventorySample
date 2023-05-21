@@ -52,8 +52,6 @@ namespace Inventory.Data
 
         [Required]
         public int StockUnits { get; set; }
-        [Required]
-        public int SafetyStockLevel { get; set; }
 
         [Required]
         public DateTimeOffset CreatedOn { get; set; }

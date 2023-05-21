@@ -68,9 +68,6 @@
 
             <TextBlock Style="{StaticResource CardHeader}" Text="Stock Units" />
             <TextBlock Style="{StaticResource CardText}" Text="{x:Bind Item.StockUnits, Mode=OneWay}" />
-
-            <TextBlock Style="{StaticResource CardHeader}" Text="Safety Stock" />
-            <TextBlock Style="{StaticResource CardText}" Text="{x:Bind Item.SafetyStockLevel, Mode=OneWay}" />
         </StackPanel>
     </ScrollViewer>
 </UserControl>
